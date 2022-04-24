@@ -24,6 +24,9 @@ input.onButtonPressed(Button.A, function () {
         basic.clearScreen()
     }
 })
+input.onButtonPressed(Button.AB, function () {
+	
+})
 input.onButtonPressed(Button.B, function () {
     for (let index = 0; index < 4; index++) {
         basic.showIcon(IconNames.Happy)
