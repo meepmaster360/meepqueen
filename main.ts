@@ -25,7 +25,12 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showIcon(IconNames.Square)
+    for (let index = 0; index < 4; index++) {
+        basic.showIcon(IconNames.Square)
+        basic.pause(500)
+        basic.showIcon(IconNames.SmallSquare)
+        basic.pause(500)
+    }
 })
 input.onButtonPressed(Button.B, function () {
     for (let index = 0; index < 4; index++) {
